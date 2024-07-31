@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container4 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.newhome_img {
+  width: 50%;
+}
+
+.katalog_img {
+  width: 30%;
+}
+
+.newhome_katalog {
+  margin-top: 0px;
+}
+
+.small_katalog_data {
+  display: flex;
+}
+
+.category_container {
+  display: flex;
+}
+
+.category_img {
+  width: 20%; /* Rasmning element ichida to'liq joylashishi */
+}
+
+.category_big_obj {
+  display: flex;
+}
+
+.category_hr {
+  position: relative;
+  bottom: 20px;
+  width: 68%;
+  left: 270px;
+  border: 1px solid black;
+}
+
+.networking {
+  display: flex;
+}
+
+.card_worked {
+  border: 1px solid grey;
+  border-radius: 30px;
+  min-width: 182px;
+  padding: 12px;
+}
+
+.text_work {
+  max-width: 530px;
+}
+
+.class_worked {
+  position: relative;
+  bottom: 27px;
+  width: 50%;
+  left: 475px;
+  border: 1px solid black;
+}
+
+.category_hr2 {
+  position: relative;
+  bottom: 20px;
+  width: 68%;
+  left: 270px;
+  border: 1px solid black;
+}
+
+.class_worked2 {
+  position: relative;
+  bottom: 27px;
+  width: 85%;
+  left: 185px;
+  border: 1px solid black;
+}
+
+.number_one {
+  position: relative;
+  left: 104px;
+  bottom: 220px;
+}
+
+.number_one1 {
+  position: relative;
+  left: 104px;
+  bottom: 255px;
+}
+
+.number_one3 {
+  position: relative;
+  left: 104px;
+  bottom: 255px;
+}
+
+.number_card {
+  position: relative;
+  bottom: 35px;
+}
+
+.number_p {
+  position: relative;
+  left: 30px;
+  bottom: 200px;
+}
+
+.number_p1 {
+  position: relative;
+  left: 30px;
+  bottom: 235px;
+}
+
+.number_p3 {
+  position: relative;
+  left: 30px;
+  bottom: 235px;
+}
+
+.span_p {
+  margin-left: 8px;
+}
+
+.span_p2 {
+  margin-left: 25px;
+}
+
+.father_card {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.children_card {
+  height: 100px;
+}
+
+.category_father {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.category_children1,
+.category_children2,
+.category_children3,
+.category_children4 {
+  position: relative;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 340px;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 25px;
+  flex: 1;
+}
+
+.category_children1 {
+  background-image: url("https://ht-med.uz/card_sxema/logo_card1.png");
+}
+
+.category_children2 {
+  background-image: url("https://ht-med.uz/card_sxema/logo_card2.png");
+}
+
+.category_children3 {
+  background-image: url("https://ht-med.uz/card_sxema/logo_card3.png");
+}
+
+.category_children4 {
+  background-image: url("https://ht-med.uz/card_sxema/logo_card4.png");
+}
+
+.category_children1::before,
+.category_children2::before,
+.category_children3::before,
+.category_children4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Yarim shaffof qora fon */
+  border-radius: 25px;
+}
+
+.category_title,
+.category_text {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.category_children2 h1,
+.category_children2 p,
+.category_children4 h1,
+.category_children4 p {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.category_children3 h1,
+.category_children3 p {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.category_hr2 {
+  position: relative;
+  bottom: 20px;
+  width: 68%;
+  left: 270px;
+  border: 1px solid black;
+}
+
+.partners_img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-around;
+  gap: 10px;
+  margin: 10px;
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+}
+
+.partners_card {
+  width: 100%;
+  max-width: 268px;
+  border: 5px solid #ededed;
+  border-radius: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.lakatsiya {
+  position: relative;
+  right: 59px;
+  top: 25px;
+}
+
+.location {
+  position: relative;
+  top: 6px;
+}
+
+.location_address {
+  position: relative;
+  top: 6px;
+}
+
+.phone_number_class {
+  position: relative;
+  bottom: 10px;
+}
+
+.phone_number {
+  position: relative;
+  left: 10px;
+}
+
+.medical_email {
+  position: relative;
+  bottom: 10px;
+}
+
+.phone_info {
+  margin-top: 20px;
+}
+
+.elektron_info {
+  margin-top: 20px;
+}
+
+.elektron_title {
+  margin-top: 10px;
+}
+
+.card_second {
+  max-width: 700px;
+  border-radius: 35px;
+  background-color: #fafafa;
+  padding: 31px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer_icons_lists {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact_us {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 45px;
+  right: 70px;
+}
+
+.contact_icons img {
+  margin: 5px;
+  width: 13%;
+}
+
+.submit_form {
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 35px;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .submit_form h1 {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+
+.contact_icons {
+  position: relative;
+  left: 80px;
+  top: 5px;
+}
+
+.web_browser {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 70px;
+  top: 60px;
+}
+
+.web_browser_icons img {
+  margin: 5px;
+  width: 13%;
+}
+
+.web_browser_icons {
+  position: relative;
+  left: 80px;
+}
+
+.web_browser_title {
+  position: relative;
+  right: 12px;
+}
+
+.input_sumbit {
+    background-color: #fafafa; 
+}

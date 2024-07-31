@@ -1,0 +1,39 @@
+.katalog_container {
+    width: 80%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .katalog_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    flex-wrap: wrap;
+  }
+  
+  .katalog_img {
+    width: 45%; 
+  }
+  
+  .card_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 100%;
+  }
+  
+  @media (min-width: 640px) {
+    .card_container {
+      grid-template-columns: repeat(2, 1fr)
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card_container {
+      grid-template-columns: repeat(3, 1fr)
+    }
+  }
+  

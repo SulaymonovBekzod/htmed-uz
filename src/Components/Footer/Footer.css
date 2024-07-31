@@ -1,0 +1,155 @@
+Footer.css * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Border-box modelini qo'shish, bu elementi yanada boshqarish imkonini beradi */
+}
+
+.footer_container {
+  width: 100%;
+  overflow: hidden; /* Scrollni olib tashlash */
+}
+
+.footer_row {
+  background-image: url("https://ht-med.uz/img/footer.png");
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  margin-top: 70px;
+}
+
+.footer_section {
+  position: relative;
+  padding: 20px;
+}
+
+.footer_img {
+  position: relative;
+  top: 50px;
+  left: 144px;
+  height: 70px;
+}
+
+.footer_text {
+  position: relative;
+  width: 50%;
+  top: 160px;
+  right: 77px;
+  color: white;
+}
+
+.footer_info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 250px;
+  right: 420px;
+  padding: 10px;
+}
+
+.footer_links {
+  position: relative;
+  right: 340px;
+  top: 44px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.footer_xizmati {
+  position: relative;
+  bottom: 120px;
+  right: 35px;
+  width: 270%;
+  color: white;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer_quloqchin {
+  position: relative;
+  bottom: 120px;  
+  left: 25px;
+  width: 48px;
+  height: auto;
+}
+
+.footer_service {
+  flex: 1;
+}
+
+.useful_news {
+  position: relative;
+  right: 200px;
+  margin-top: 60px;
+  color: white;
+}
+
+.all_useful_news {
+  position: relative;
+  right: 200px;
+  color: white;
+}
+
+.menu_links {
+  position: relative;
+  right: 250px;
+  color: white;
+}
+
+.footer_icons {
+  width: 187px;
+  height: 187px;
+  position: relative;
+  left: 10%;
+  top: 0;
+}
+
+.facebook_icon {
+  position: relative;
+  top: 100px;
+  right: 170px;
+}
+
+.telegram_icon {
+  position: relative;
+  top: 60px;
+  right: 220px;
+}
+
+.youtube_icon {
+  position: relative;
+  bottom: 28px;
+  right: 120px;
+}
+
+.instagram_icon {
+  position: relative;
+  bottom: 68px;
+  right: 170px;
+}
+
+.footer_links li {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.footer_links li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  border-bottom: 2px dotted green;
+  transition: width 0.3s ease-in-out;
+}
+
+.footer_links li:hover::after {
+  width: 100%;
+}
